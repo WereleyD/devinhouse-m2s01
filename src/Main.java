@@ -17,6 +17,7 @@ public class Main {
                     "7 - Calculadora\n" +
                     "8 - Calculadora de Pa ou Pg\n" +
                     "9 - Reajuste de Salário\n" +
+                    "0 - Sair\n" +
                     "Escolha uma das opções acima: ");
             op = sc.nextInt();
 
