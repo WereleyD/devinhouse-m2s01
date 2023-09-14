@@ -61,25 +61,23 @@ public class Numero {
         int num2 = sc.nextInt();
 
         switch (operacao) {
-            case 1:
+            case 1 -> {
                 System.out.println("Você escolheu a operação soma.");
                 System.out.print("Resultado da operação: " + (num1 + num2));
-                break;
-            case 2:
+            }
+            case 2 -> {
                 System.out.println("Você escolheu a operação subtração.");
                 System.out.print("Resultado da operação: " + (num1 - num2));
-                break;
-            case 3:
+            }
+            case 3 -> {
                 System.out.println("Você escolheu a operação multiplicação.");
                 System.out.print("Resultado da operação: " + (num1 * num2));
-                break;
-            case 4:
+            }
+            case 4 -> {
                 System.out.println("Você escolheu a operação divisão.");
                 System.out.print("Resultado da operação: " + (num1 / num2));
-                break;
-            default:
-                System.out.print("Operação inválida.");
-                break;
+            }
+            default -> System.out.print("Operação inválida.");
         }
     }
 
